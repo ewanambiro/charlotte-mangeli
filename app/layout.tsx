@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Charlotte Mangéli | Procurement & Supply Chain Leader",
     description: "Senior procurement and supply chain leader advancing critical infrastructure across Africa.",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Charlotte Mangéli — Procurement, Supply Chain, Africa" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Charlotte Mangéli - Procurement, Supply Chain, Africa" }],
   },
   twitter: {
     card: "summary_large_image",

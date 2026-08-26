@@ -24,7 +24,7 @@ export default function Home() {
 
       <section className="statement" id="about">
         <p className="section-label">01 / Perspective</p>
-        <div><h2>Procurement is more than purchasing. It&apos;s how ambitious ideas become <em>real-world progress.</em></h2><p>For over a decade, I&apos;ve worked at the intersection of procurement, logistics, and infrastructure delivery across Africa—from telecom equipment and complex customs environments to submarine cable infrastructure under Lake Tanganyika.</p></div>
+        <div><h2>Procurement is more than purchasing. It&apos;s how ambitious ideas become <em>real-world progress.</em></h2><p>For over a decade, I&apos;ve worked at the intersection of procurement, logistics, and infrastructure delivery across Africa - from telecom equipment and complex customs environments to submarine cable infrastructure under Lake Tanganyika.</p></div>
       </section>
 
       <section className="impact-band" aria-label="Career highlights">
