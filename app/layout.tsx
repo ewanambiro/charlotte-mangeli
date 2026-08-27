@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: [{ url: "/cm-favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/cm-favicon.svg",
   },
 };
 
