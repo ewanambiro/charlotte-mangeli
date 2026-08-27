@@ -16,3 +16,17 @@ footer h2{font-size:clamp(54px,7.5vw,104px)}
 
 @media(max-width:900px){.hero-copy{min-height:540px;padding:58px 7vw}.portrait-wrap{min-height:460px;padding:32px 7vw 0}.portrait-frame{height:92%;width:min(78%,460px)}}
 @media(max-width:560px){.hero-copy{min-height:500px}.portrait-wrap{min-height:380px}.portrait-frame{width:min(84%,360px)}}
+
+/* Mobile hero: independent rows prevent the portrait from being compressed by copy. */
+@media(max-width:900px){
+  .hero{min-height:0;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto}
+  .hero-copy{min-height:0;padding:58px 7vw 54px}
+  .hero-actions{margin-top:36px;padding-top:0}
+  .portrait-wrap{min-height:0;height:auto;padding:32px 7vw 0;align-self:start}
+  .portrait-frame{height:auto;aspect-ratio:4/5;width:min(78%,460px);flex:0 0 auto}
+}
+@media(max-width:560px){
+  .hero-copy{min-height:0;padding:48px 7vw 44px}
+  .portrait-wrap{min-height:0;padding-top:26px}
+  .portrait-frame{height:auto;aspect-ratio:4/5;width:min(88%,360px)}
+}
